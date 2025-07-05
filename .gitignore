@@ -1,1 +1,32 @@
+# Clacky-related configuration
+.env
+
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Package manager files
+pip-log.txt
+pip-delete-this-directory.txt
+node_modules/
+
+# Log files
+*.log
+
+# Upload directories
+uploads/
+
+# System files
 .DS_Store
